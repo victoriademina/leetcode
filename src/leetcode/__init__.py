@@ -12,3 +12,4 @@ from . import return_to_origin
 from . import self_dividing_numbers
 from . import unique_number
 from . import array_partition
+from . import height_checker
