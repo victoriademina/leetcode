@@ -10,3 +10,4 @@ from . import sort_array_by_parity
 from . import repeated_element
 from . import return_to_origin
 from . import self_dividing_numbers
+from . import unique_number
