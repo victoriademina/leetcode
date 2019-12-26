@@ -15,3 +15,4 @@ from . import array_partition
 from . import height_checker
 from . import reverse_string
 from . import sort_array
+from . import occurrences_after_bigram
