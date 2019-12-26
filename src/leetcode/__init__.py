@@ -17,3 +17,4 @@ from . import reverse_string
 from . import sort_array
 from . import occurrences_after_bigram
 from . import number_complement
+from . import keyboard_row
