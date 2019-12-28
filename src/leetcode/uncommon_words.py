@@ -1,9 +1,12 @@
+"""
+https://leetcode.com/problems/uncommon-words-from-two-sentences/
+"""
 import collections
 
 
-def uncommon_words(A, B):
-    new_a = A.split()
-    new_b = B.split()
+def uncommon_words(a, b):
+    new_a = a.split()
+    new_b = b.split()
 
     result = []
     counter = collections.Counter()

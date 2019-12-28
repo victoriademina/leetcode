@@ -3,10 +3,11 @@ from leetcode import uncommon_words
 
 
 @pytest.mark.parametrize(
-    'A,B,expected',
+    'a,b,expected',
     [
         ("this apple is sweet", "this apple is sour", ["sweet", "sour"]),
+        ("apple apple", "banana", ["banana"]),
     ],
 )
-def test_uncommon_words(A, B, expected):
-    assert uncommon_words.uncommon_words(A, B) == expected
+def test_uncommon_words(a, b, expected):
+    assert uncommon_words.uncommon_words(a, b) == expected
