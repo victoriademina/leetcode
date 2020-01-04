@@ -1,3 +1,8 @@
+"""
+https://leetcode.com/problems/next-greater-element-i/
+"""
+
+
 def next_greater_element(nums1, nums2):
     result = []
     for n1 in nums1:
