@@ -22,3 +22,4 @@ from . import uncommon_words
 from . import last_stone
 from . import next_greater_element
 from . import valid_anagram
+from . import contains_duplicate
